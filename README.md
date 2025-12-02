@@ -10,7 +10,7 @@ It implements a complete library management database with tables, relationships,
 
 # 🚀 Project Contents
 
-The file **`biblioteca_completa.sql`** includes:
+The file **`teclab_library_database.sql`** includes:
 
 ### ✔️ Full database structure
 - **lectores** (readers)
@@ -48,9 +48,9 @@ The file **`biblioteca_completa.sql`** includes:
 ## Option 1 — Using pgAdmin
 1. Create a new database named **biblioteca**  
 2. Right-click → **Restore**  
-3. Select the file `biblioteca_completa.sql`  
+3. Select the file `teclab_library_database.sql`  
 4. Restore
 
 ## Option 2 — Using terminal
 ```bash
-psql -U postgres -d biblioteca -f biblioteca_completa.sql
+psql -U postgres -d biblioteca -f teclab_library_database.sql
